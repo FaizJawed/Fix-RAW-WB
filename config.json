@@ -1,0 +1,22 @@
+{
+    "model_path": "models/net_awb.pth",
+    "preset": "true_neutral",
+    "intensity": 0,
+    "device": "cuda",
+    "clamp_min": 2000,
+    "clamp_max": 10000,
+    "presets": {
+        "true_neutral": {
+            "temp_shift_percent": 0.0,
+            "tint_shift": 0.0
+        },
+        "warm": {
+            "temp_shift_percent": 0.15,
+            "tint_shift": 0.0
+        },
+        "cool": {
+            "temp_shift_percent": -0.15,
+            "tint_shift": 0.0
+        }
+    }
+}
